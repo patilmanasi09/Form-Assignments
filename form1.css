@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+.register-container {
+    width: 350px;
+    margin: 60px auto;
+    padding: 30px;
+    border: 2px solid gray;
+    background: #fff;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: bold;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background: gray;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkgray;
+}
+
+.login-text {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}

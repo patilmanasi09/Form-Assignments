@@ -1,0 +1,96 @@
+     body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        
+    }
+
+    .wrapper {
+        width: 100%;
+        min-height: 100vh;
+        background: rgb(253, 173, 229);
+        padding: 30px 0;
+    }
+
+    .form-box {
+        width: 780px;
+        margin: auto;
+    }
+
+    h1 {
+        font-size: 28px;
+        font-weight: normal;
+        color: #181818;
+        margin-bottom: 25px;
+    }
+
+    label {
+        display: block;
+        font-size: 14px;
+        color: #080808;
+        margin-bottom: 6px;
+        font-weight: bold;
+    }
+
+    .required {
+        color: red;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="tel"] {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #a2a1a1;
+        border-radius: 4px;
+        font-size: 14px;
+        margin-bottom: 18px;
+        box-sizing: border-box;
+    }
+
+    .two-col {
+        display: flex;
+        gap: 20px;
+    }
+
+    .two-col input {
+        width: 100%;
+    }
+
+    .captcha-section {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    }
+
+    .captcha-box {
+        background: #fff;
+        border: 1px solid #dcdcdc;
+        width: 300px;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        border-radius: 3px;
+    }
+
+    .captcha-box img {
+        margin-left: auto;
+        width: 40px;
+    }
+
+    .submit-btn {
+        background: #1e88e5;
+        color: #fff;
+        border: none;
+        padding: 12px 28px;
+        font-size: 15px;
+        border-radius: 4px;
+        cursor: pointer;
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .submit-btn:hover {
+        background: #1565c0;
+    }
