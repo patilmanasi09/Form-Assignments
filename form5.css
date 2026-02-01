@@ -57,9 +57,14 @@
         width: 100%;
     }
 
+    .Verification{
+        margin-left: 250px;
+    }
+
     .captcha-section {
         margin-top: 10px;
         margin-bottom: 30px;
+        margin-left: 250px;
     }
 
     .captcha-box {
@@ -89,6 +94,7 @@
         display: inline-flex;
         align-items: center;
         gap: 8px;
+        margin-left: 350px;
     }
 
     .submit-btn:hover {
